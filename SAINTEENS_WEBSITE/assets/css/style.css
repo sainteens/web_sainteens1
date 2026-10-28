@@ -1,0 +1,171 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Profile Section */
+.profile-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 16px;
+    border: 2px solid #222;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    letter-spacing: 0.5px;
+}
+
+.subtitle {
+    font-size: 0.9rem;
+    color: #888888;
+    margin-bottom: 32px;
+}
+
+/* Links Section */
+.links-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.link-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #161616;
+    border: 1px solid #262626;
+    border-radius: 16px;
+    padding: 16px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.2s ease-in-out;
+}
+
+.link-card:hover {
+    background-color: #222222;
+    border-color: #3d3d3d;
+    transform: translateY(-2px);
+}
+
+.link-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.icon-box {
+    background-color: #222222;
+    border: 1px solid #333333;
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e1e1e1;
+}
+
+.link-text {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.arrow-icon {
+    color: #666666;
+}
+
+/* Footer Section */
+.footer {
+    margin-top: 40px;
+    font-size: 0.8rem;
+    color: #555555;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.tagline {
+    font-style: italic;
+}
+
+/* Styling Tambahan untuk Halaman Pilihan Website */
+
+/* Tombol Kembali */
+.back-btn {
+    align-self: flex-start;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #888888;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 24px;
+    transition: color 0.2s ease;
+}
+
+.back-btn:hover {
+    color: #ffffff;
+}
+
+/* Wadah Logo Khusus */
+.logo-box {
+    background-color: #222222;
+    border: 1px solid #333333;
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 6px;
+}
+
+.brand-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Pengelompokan Teks Judul & Subteks */
+.text-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.link-subtext {
+    font-size: 0.75rem;
+    color: #888888;
+    font-weight: 400;
+    margin-top: 2px;
+}
